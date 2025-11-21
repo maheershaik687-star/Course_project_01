@@ -63,3 +63,52 @@ View attendance for any date (enter today or a specific YYYY-MM-DD).
 Compute per-student attendance percentage (Present / Total records for that roll).
 
 Text-based, portable — can be compiled on Linux/macOS/Windows (with a C compiler).
+
+
+
+
+File formats / examples
+
+students.txt (each line: roll,name)
+
+1,Anita Sharma
+2,Raj Patel
+3,Sneha Kumar
+
+
+attendance.csv (each line: YYYY-MM-DD,roll,P or YYYY-MM-DD,roll,A)
+
+2025-11-21,1,P
+2025-11-21,2,A
+2025-11-21,3,P
+2025-11-22,1,P
+
+How to compile & run (Linux / macOS)
+
+Save your source as attendance.c.
+
+Open a terminal in the directory with attendance.c.
+
+Compile:
+
+gcc attendance.c -o attendance
+
+
+Run:
+
+./attendance
+
+How to compile & run (Windows using MinGW)
+
+Save attendance.c.
+
+Open Command Prompt in that folder (or use MSYS2/MinGW shell).
+
+Compile:
+
+gcc attendance.c -o attendance.exe
+
+
+Run:
+
+attendance.exe
