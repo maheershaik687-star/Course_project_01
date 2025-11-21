@@ -115,3 +115,5 @@ attendance.exe
 
 <img width="384" height="221" alt="image" src="https://github.com/user-attachments/assets/d6ac136e-5b7c-4ccf-927f-b4da8ae1b5a7" />
 
+<img width="406" height="409" alt="Screenshot 2025-11-21 154836" src="https://github.com/user-attachments/assets/4feaac4d-1e8c-42a2-93ac-a8f6eadc86c6" />
+
