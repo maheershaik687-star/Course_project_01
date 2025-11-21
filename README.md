@@ -43,3 +43,20 @@ Validation & robustness
 Basic input validation for roll numbers and attendance entries (only accept P or A).
 
 Handle missing files gracefully (prompt to add students or show no records).
+Features (what the program provides)
+
+Simple persistent storage using plain text files:
+
+students.txt — list of students (CSV: roll,name).
+
+attendance.csv — attendance log (CSV: date,roll,status).
+
+Menu-driven CLI (clear options, loop until exit).
+
+Mark attendance interactively (one student at a time).
+
+View attendance for any date (enter today or a specific YYYY-MM-DD).
+
+Compute per-student attendance percentage (Present / Total records for that roll).
+
+Text-based, portable — can be compiled on Linux/macOS/Windows (with a C compiler).
