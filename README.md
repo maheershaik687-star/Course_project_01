@@ -14,39 +14,16 @@ This system is simple, portable, and easy to run on any machine with a C compile
 
 ## Functional requirements
 
-Persist student records
+### 2.1 Student Information Storage
 
-Store roll number and name in students.txt (one student per line, CSV format: roll,name).
+The system must store each student’s roll number and name.
 
-Record daily attendance
+The data must be saved permanently in students.txt.
 
-For each class/day, append per-student attendance rows to attendance.csv in the format: YYYY-MM-DD,roll,P|A.
+Each student record is stored in the form:
 
-User interactions (console menu)
 
-Add a student.
-
-View all students.
-
-Mark attendance for today for every student (prompt P/A for each).
-
-View attendance records for a specific date.
-
-Compute attendance percentage for a specific roll across all recorded dates.
-
-Exit the application.
-
-Date handling
-
-Automatically use the system date for “today” records (format YYYY-MM-DD).
-
-Allow manual date entry (YYYY-MM-DD) when viewing attendance by date.
-
-Validation & robustness
-
-Basic input validation for roll numbers and attendance entries (only accept P or A).
-
-Handle missing files gracefully (prompt to add students or show no records).
+.
 
 
 
