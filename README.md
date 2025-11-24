@@ -16,11 +16,11 @@ This system is simple, portable, and easy to run on any machine with a C compile
 
 #### 1 Student Information Storage
 
-The system must store each student’s roll number and name.
+- The system must store each student’s roll number and name.
 
-The data must be saved permanently in students.txt.
+- The data must be saved permanently in students.txt.
 
-Each student record is stored in the form:
+- Each student record is stored in the form:
 
 #### 2 Attendance Recording
 
