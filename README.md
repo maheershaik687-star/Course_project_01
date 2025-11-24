@@ -8,7 +8,7 @@ A simple, file-based Attendance Management program in C that stores student info
 
 
 
-Functional requirements
+## Functional requirements
 
 Persist student records
 
@@ -46,7 +46,7 @@ Handle missing files gracefully (prompt to add students or show no records).
 
 
 
-Features (what the program provides)
+## Features (what the program provides)
 
 Simple persistent storage using plain text files:
 
