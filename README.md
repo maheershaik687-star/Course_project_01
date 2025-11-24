@@ -3,7 +3,11 @@ Attendance Management
 
 ## Abstract
 
-A simple, file-based Attendance Management program in C that stores student info in students.txt and daily attendance in attendance.csv. It provides a console menu to add/view students, mark attendance for the current date, view attendance by date, and compute an individual student’s attendance percentage. The program is lightweight, requires no external libraries, and persists data between runs using plain text files.
+This project is a simple Attendance Management System written in C using text files for storage. It allows a teacher or admin to store student details like roll number and name in a file called students.txt. For each day, the program asks the user to mark every student as P (Present) or A (Absent) and saves it in attendance.csv.
+
+The project uses a menu-based interface, where the user can choose different options like adding a student, marking attendance, viewing attendance for a specific date, and checking the attendance percentage of a student. The system uses the computer’s current date to automatically save daily attendance.
+
+This system is simple, portable, and easy to run on any machine with a C compiler. It does not require any database; it only uses plain text files.
 
 
 
