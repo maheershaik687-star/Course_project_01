@@ -46,7 +46,7 @@ Handle missing files gracefully (prompt to add students or show no records).
 
 
 
- Features (what the program provides)
+ ## Features
 
 Simple persistent storage using plain text files:
 
