@@ -81,6 +81,9 @@ This system is simple, portable, and easy to run on any machine with a C compile
 - Ignore empty lines or corrupted lines inside files.
 
 
+## Features
+
+
 #### 1. Add New Students
 
 - You can add a student by entering:
