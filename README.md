@@ -81,25 +81,104 @@ This system is simple, portable, and easy to run on any machine with a C compile
 - Ignore empty lines or corrupted lines inside files.
 
 
+#### 1. Add New Students
 
- ## Features
+- You can add a student by entering:
 
-Simple persistent storage using plain text files:
+- Roll number
 
-students.txt — list of students (CSV: roll,name).
+- Name
 
-attendance.csv — attendance log (CSV: date,roll,status).
+- The details are saved permanently in a file students.txt.
 
-Menu-driven CLI (clear options, loop until exit).
+- Format inside the file →
 
-Mark attendance interactively (one student at a time).
+#### 2. View All Students
 
-View attendance for any date (enter today or a specific YYYY-MM-DD).
+- Displays a neat list of all registered students.
 
-Compute per-student attendance percentage (Present / Total records for that roll).
+- Reads the data from students.txt and prints:
 
-Text-based, portable — can be compiled on Linux/macOS/Windows (with a C compiler).
+#### 3. Mark Attendance for Today
 
+- The program automatically detects today’s date using system time.
+
+- For each student, it asks:
+
+Saves attendance for each student in attendance.csv in this format:
+
+✔ Easy to record attendance
+
+✔ Automatically stores by date, roll number, and status
+
+#### 4. View Attendance by Date
+
+- You can type a specific date like:
+
+2025-11-23
+
+
+- or you can simply type:
+
+ today
+
+
+- The program reads attendance.csv and prints all students' attendance for that date.
+
+#### Example output:
+
+Attendance for 2025-11-24
+
+Roll         Status
+----       ------
+101        P
+
+102        A
+
+#### 5. Calculate Student Attendance Percentage
+
+- Enter a student’s roll number.
+
+- The program counts:
+
+- How many days attendance is recorded
+
+- How many days the student was present
+
+- Then it calculates:
+
+- Percentage = (Present / Total Days) × 100
+
+
+#### Example:
+
+Roll 101 -> Present: 18 / 20 (90.00%)
+
+
+#### 6. File-Based Permanent Storage
+
+- The program uses text files to store data permanently:
+
+- students.txt for student details
+
+- attendance.csv for attendance records
+
+- Even if you close the program, your data stays saved.
+#### 7. User-Friendly Menu System
+
+- A simple 1–6 menu lets you:
+
+- Add students
+
+- View students
+
+- Mark attendance
+
+- Check attendance
+
+- View percentage
+
+- Exit program
 
 
 
