@@ -185,53 +185,37 @@ Roll 101 -> Present: 18 / 20 (90.00%)
 
 
 
-File formats / examples
-
-students.txt (each line: roll,name)
-
-1,Anita Sharma
-2,Raj Patel
-3,Sneha Kumar
 
 
-attendance.csv (each line: YYYY-MM-DD,roll,P or YYYY-MM-DD,roll,A)
+## How to Run the Attendance Project (Windows / Linux)
 
-2025-11-21,1,P
-2025-11-21,2,A
-2025-11-21,3,P
-2025-11-22,1,P
+- Save Your Code in a File
 
-How to compile & run (Linux / macOS)
+- Open Notepad, VS Code, CodeBlocks, or any editor.
 
-Save your source as attendance.c.
+- Copy the full code.
 
-Open a terminal in the directory with attendance.c.
+- Save it as:
 
-Compile:
-
-gcc attendance.c -o attendance
+attendance.c
 
 
-Run:
+- Make sure the file extension is .c, not .txt.
 
-./attendance
+  #### Install a C Compiler (if not installed)
+✔ Windows Users
 
-How to compile & run (Windows using MinGW)
+Install MinGW (GCC compiler):
 
-Save attendance.c.
+- 🔗 https://sourceforge.net/projects/mingw/
 
-Open Command Prompt in that folder (or use MSYS2/MinGW shell).
+- During setup → Make sure gcc is checked.
 
-Compile:
+- After installation, open Command Prompt (cmd) and type:
 
-gcc attendance.c -o attendance.exe
+ gcc --version
 
+ - If it shows a version, you’re ready.
 
-Run:
-
-attendance.exe
-
-<img width="384" height="221" alt="image" src="https://github.com/user-attachments/assets/d6ac136e-5b7c-4ccf-927f-b4da8ae1b5a7" />
-
-<img width="406" height="409" alt="Screenshot 2025-11-21 154836" src="https://github.com/user-attachments/assets/4feaac4d-1e8c-42a2-93ac-a8f6eadc86c6" />
+   
 
