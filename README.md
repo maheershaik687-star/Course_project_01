@@ -233,8 +233,56 @@ sudo dnf install gcc
 
 #### Compile the Program
 
-Open Command Prompt (Windows) or Terminal (Linux).
+- Open Command Prompt (Windows) or Terminal (Linux).
 
-Go to the folder where you saved attendance.c.
-   
+- Go to the folder where you saved attendance.c.
 
+- If there are no errors, it will generate an executable file named:
+
+#### Run the Program
+✔ Windows:
+
+attendance
+
+✔ Linux:
+
+./attendance
+
+#### Use the Menu
+
+- After running, you will see a menu like:
+
+- Now you can:
+
+- Press 1 → Add student
+
+- Press 2 → View student list
+
+- Press 3 → Mark attendance
+
+- Press 4 → View attendance for a date
+
+- Press 5 → Attendance percentage
+
+- Press 6 → Exit
+
+  #### Check Generated Files
+
+- After running the program, it creates two files:
+
+✔ students.txt
+
+Stores:
+
+101,John
+102,Aisha
+
+✔ attendance.csv
+
+Stores:
+
+2025-11-24,101,P
+2025-11-24,102,A
+
+
+- These files act as your database.
