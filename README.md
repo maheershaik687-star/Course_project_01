@@ -286,3 +286,49 @@ Stores:
 
 
 - These files act as your database.
+
+
+
+
+  # Screenshot
+
+
+  <img width="471" height="266" alt="Screenshot 2025-11-25 091816" src="https://github.com/user-attachments/assets/c3774926-9ad6-49f7-bbac-d41d63bdadfc" />
+
+
+ ### Add Student
+
+ <img width="475" height="136" alt="Screenshot 2025-11-25 091946" src="https://github.com/user-attachments/assets/d4ea112e-cb0d-4a61-a493-4f8928acba56" />
+
+### View Student 
+
+<img width="290" height="183" alt="Screenshot 2025-11-25 092027" src="https://github.com/user-attachments/assets/d00c6bfd-844b-451e-96db-d4bfb4afe1e2" />
+
+
+### Mark Attendance (today)
+
+<img width="623" height="175" alt="Screenshot 2025-11-25 092109" src="https://github.com/user-attachments/assets/341193f3-ca36-4c57-9935-a25a89a7124f" />
+
+
+### View Attendance by Date
+
+
+<img width="673" height="224" alt="Screenshot 2025-11-25 092255" src="https://github.com/user-attachments/assets/dadde0c2-4b35-4364-9b51-f7f90d3ee409" />
+
+
+
+### Student Attendance percentage 
+
+
+
+<img width="433" height="108" alt="Screenshot 2025-11-25 092404" src="https://github.com/user-attachments/assets/b805d91b-10ce-48e1-8860-ceb2190ab4f3" />
+
+
+
+### Exit
+
+
+
+<img width="293" height="49" alt="Screenshot 2025-11-25 092430" src="https://github.com/user-attachments/assets/f8e2716f-00d8-4581-a262-beb976421031" />
+
+
