@@ -217,5 +217,24 @@ Install MinGW (GCC compiler):
 
  - If it shows a version, you’re ready.
 
+
+✔ Linux Users
+
+- GCC is usually installed. But if not:
+
+- Ubuntu / Debian:
+
+sudo apt install build-essential
+
+
+- Fedora:
+
+sudo dnf install gcc
+
+#### Compile the Program
+
+Open Command Prompt (Windows) or Terminal (Linux).
+
+Go to the folder where you saved attendance.c.
    
 
